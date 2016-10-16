@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>bootstrop开发</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+	
+	<!--响应式导航部分-->
+	<!--nav STAR-->
+	<nav class="navbar navbar-default" id="nav">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand logo">湘北斗互联科技</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span>首页</a></li>
+					<li><a href="produces.html"><span class="glyphicon glyphicon-fire"></span>产品介绍</a></li>
+					<li><a href="cases.html"><span class="glyphicon glyphicon-list"></span>案例</a></li>
+					<li><a href="about.html"><span class="glyphicon glyphicon-question-sign"></span>关于</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--nav END-->
+	
+	<!--轮播图部分 STAR-->
+	<div class="carousel slide" id="myCarousel">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="item active";>
+				<img src="img/banner1.png" alt="adver1" />
+			</div>
+			<div class="item">
+				<img src="img/banner2.jpg" alt="adver2" />
+			</div>
+		</div>
+		<a href="#myCarousel" class="carousel-control left" data-target="#myCarousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a href="#myCarousel" class="carousel-control right" data-target="#myCarousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+	<!--轮播图部分 END-->
+	
+	<!--内容区域-->
+	<!--tab1 STAR-->
+	<div class="tab tab1">
+		<div class="tab-headline" id="tab-headline">
+				<h2 class="tab1-h2">X-TMS</h2>
+		</div>
+		<div class="container">
+			<p class="tab-p" id="tab-p">· 国内唯一基于北斗联网联控平台的运输管理系统</p>
+			<div class="row" id="tab1-row">
+				<div class="col-lg-6 col-sm-12">
+					<div class="tab1-img clearfix">
+						<div class="tab1-img1 tab-img-num">
+							<img src="img/报表统计分析.png"/>
+						</div>
+						<div class="tab1-img2 tab-img-num">
+							<img src="img/报表统计分析.png"/>
+						</div>
+						<div class="tab1-img3 tab-img-num">
+							<img src="img/报表统计分析.png"/>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-sm-12">
+					<div class="tab1-img clearfix">
+						<div class="tab1-img4 tab-img-num">
+							<img src="img/报表统计分析.png"/>
+						</div>
+						<div class="tab1-img5 tab-img-num">
+							<img src="img/报表统计分析.png"/>
+						</div>
+						<div class="tab1-img6 tab-img-num">
+							<img src="img/报表统计分析.png"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--tab1 END-->
+	
+	<!--tab2 STAR-->
+	<div class="tab tab2">
+		<div class="container">
+			<div class="jumbotron">
+				<h2 class="tab2-h2">为什么选择X-TMS 
+					<button class="btn tab2-btn" style="background:#fab401;">预约演示</button>
+				</h2>
+				<p class="tab2-p">X-TMS为货主、3PL、专线、车队及司机之间提供了便捷和可靠的业务连接服务，帮助上下游企业间实现高效的协同运输和精确的财务对账管理。把"供应商-运输商-司机-收货人"之间通过信息共享和供应链协作，实现计划、预测、运输、库存、结算等商品服务全过程的物流协作。</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="tab2-img auto center-block">
+						<button class="btn tab2-btn">货主企业</button>
+						<p>无缝对企业ERP/WMS
+						<p>连接多级承运商,端到xx</p>	
+						<p>增加客户的满意度提升企业竞争力</p>
+						<p>助力运输战略的制定与执行</p>
+						<p>全局一目了然订单、签收、在途、应付......</p>	
+						<p>承运商实时KPI考核</p>
+						<p>财务对账准确高效</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="auto center-block">
+						<img src="img/中间小图.png" class="img-responsive auto center-block"/>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="tab2-img auto center-block">
+						<button class="btn tab2-btn">货主企业</button>
+						<p>无缝对企业ERP/WMS
+						<p>连接多级承运商,端到xx</p>	
+						<p>增加客户的满意度提升企业竞争力</p>
+						<p>助力运输战略的制定与执行</p>
+						<p>全局一目了然订单、签收、在途、应付......</p>	
+						<p>承运商实时KPI考核</p>
+						<p>财务对账准确高效</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--tab2 END-->
+	
+	<!--tab3 STAR-->
+	<div class="tab">
+		<div class="container">
+			<h2 class="tab3-h2">服务</h2>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="tab3-img clearfix">
+						<div class="tab3-img1">
+							<div class="tab3-img-block tab3-img-hidden">
+								<div>
+									<p>位置服务</p>
+								</div>
+							</div>
+							<div class="tab3-img-p  tab3-img-hidden">我们是湖南省最大的北斗位置服务供应商之一，超过15年位置服务运营经验...</div>
+							<div class="tab3-img-block">
+								<div>
+									<p>位置服务</p>
+								</div>
+							</div>
+							<div class="tab3-img-p">我们是湖南省最大的北斗位置服务供应商之一，超过15年位置服务运营经验...</div>
+							<div class="tab3-img-block  tab3-img-hidden">
+								<div>
+									<p>位置服务</p>
+								</div>
+							</div>
+							<div class="tab3-img-p  tab3-img-hidden">我们是湖南省最大的北斗位置服务供应商之一，超过15年位置服务运营经验...</div>
+							<div class="tab3-img-block">
+								<div>
+									<p>位置服务</p>
+								</div>
+							</div>
+							<div class="tab3-img-p">我们是湖南省最大的北斗位置服务供应商之一，超过15年位置服务运营经验...</div>
+						</div>
+						<div class="tab3-img2">
+							<div class="tab3-img-block">
+								<img src="img/A.png"/>
+							</div>
+							<div class="tab3-img-dotted">
+								<img src="img/服务虚线.png"/>
+							</div>
+							<div class="tab3-img-block">
+								<img src="img/B.png"/>
+							</div>
+							<div class="tab3-img-dotted">
+								<img src="img/服务虚线.png"/>
+							</div>
+							<div class="tab3-img-block">
+								<img src="img/C.png"/>
+							</div>
+							<div class="tab3-img-dotted">
+								<img src="img/服务虚线.png"/>
+							</div>
+							<div class="tab3-img-block">
+								<img src="img/D.png"/>
+							</div>
+							<div class="tab3-img-dotted">
+								<img src="img/服务虚线.png"/>
+							</div>
+						</div>
+						<div class="tab3-img3">
+							<div class="tab3-img-block tab3-img-block2">
+								<div>
+									<p>位置服务</p>
+								</div>
+							</div>
+							<div class="tab3-img-p">我们是湖南省最大的北斗位置服务供应商之一，超过15年位置服务运营经验...</div>
+							<div class="tab3-img-block tab3-img-block2  tab3-img-hidden">
+								<div>
+									<p>位置服务</p>
+								</div>
+							</div>
+							<div class="tab3-img-p  tab3-img-hidden">我们是湖南省最大的北斗位置服务供应商之一，超过15年位置服务运营经验...</div>
+							<div class="tab3-img-block tab3-img-block2">
+								<div>
+									<p>位置服务</p>
+								</div>
+							</div>
+							<div class="tab3-img-p">我们是湖南省最大的北斗位置服务供应商之一，超过15年位置服务运营经验...</div>
+							<div class="tab3-img-block tab3-img-block2  tab3-img-hidden">
+								<div>
+									<p>位置服务</p>
+								</div>
+							</div>
+							<div class="tab3-img-p  tab3-img-hidden">我们是湖南省最大的北斗位置服务供应商之一，超过15年位置服务运营经验...</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p class="tab3-p">不一样的<br><span style="color:#FAB500">协同型运输管理平台</span></p>
+			<div class="tab3-imgBottom">
+				<img src="img/平台.png" class="auto center-block img-responsive"/>
+			</div>
+		</div>
+	</div>
+	<!--tab3 END-->
+	
+	<!--tab4 STAR-->
+	<div class="tab4">
+		<div class="container">
+			<h2 class="tab-h2">行业解决方案</h2>
+			<div class="row">
+				<div class="col-sm-6 col-lg-3" style="padding:0;">
+					<div class="tab4-img">
+						<img src="img/智慧物流.png" class="img-responsive"/>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3" style="padding:0;">
+					<div class="tab4-img">
+						<img src="img/同城配送.png" class="img-responsive"/>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3" style="padding:0;">
+					<div class="tab4-img">
+						<img src="img/冷链解决方案.png" class="img-responsive"/>
+					</div>
+				</div>
+				<div class="col-sm-6 col-lg-3" style="padding:0;">
+					<div class="tab4-img">
+						<img src="img/渣土车解决方案.png" class="img-responsive"/>
+					</div>
+				</div>
+			</div>
+			<div class="tab-enter"></div>
+		</div>
+	</div>
+	<!--tab4 END-->
+	
+	<!--tab5 STAR-->
+	<div class="tab5">
+		<div class="container">
+			<h2 class="tab-h2">产品中心</h2>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="thumbnail tab5-thum">
+								<img src="img/北斗终端.png" class="img-circle"/>
+								<div class="caption">
+									<h3>北斗终端</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="thumbnail tab5-thum">
+								<img src="img/tms.png" class="img-circle"/>
+								<div class="caption">
+									<h3>X-TMS</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="thumbnail tab5-thum">
+								<img src="img/智能硬件.png" class="img-circle"/>
+								<div class="caption">
+									<h3>智能硬件</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+		</div>
+	</div>
+	<!--tab5 END-->
+	
+	<!--tab6 STAR-->
+	<div class="tab6">
+		<div class="container">
+			<div class="jumbotron">
+				<h2 class="tab-h2">优势</h2>
+				<p class="tab6-p">湖南北斗打通公路运输领域大数据服务闭环、成为领先的货运数据服务提供商；自主研发的硬件"湖南北斗智盒"正式发布，是目前行业最稳定可靠的智能管车设备，标志着湖南北斗成为软件硬件一体化运营的货运车辆互联网平台；发布面向中小车辆群体的车辆管理产品"湖南北斗手机管车"，是帮助中小车队老板做强做大的重要管理工具。</p>
+			</div>
+			
+		</div>
+	</div>
+	<!--tab6 END-->
+	
+	<!--tab7 STAR-->
+	<div class="tab7">
+		<div class="container">
+			<h2 class="tab-h2">合作伙伴</h2>
+			<div class="tab7-img">
+				<div class="tab7-img-top clearfix"></div>
+				<div class="tab7-bottom">
+					<div class="tab7-img-list">
+					<ul id="tab7-img-ul">
+						<li><a href="#"><img src="img/1.png" alt="adver1"/></a></li>
+						<li><a href="#"><img src="img/2.png" alt="adver2"/></a></li>
+						<li><a href="#"><img src="img/3.png" alt="adver3"/></a></li>
+						<li><a href="#"><img src="img/4.png" alt="adver4"/></a></li>
+						<li><a href="#"><img src="img/5.png" alt="adver5"/></a></li>
+						<li><a href="#"><img src="img/6.png" alt="adver6"/></a></li>
+					</ul>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<!--tab7 END-->
+	
+	<!--tab8 STAR-->
+	<div class="tab8-icon">
+		<div class="tab8-icon-img">
+			<img src="img/底部三角形.png"/>
+		</div>
+	</div>
+	<div class="tab8">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-3 col-sm-6">
+					<div class="tab8-img">
+						<h4 class="tab8-img-h4">CONTACT US/联系我们</h4>
+						<p class="tab8-img-p">公司名称 ：湖南湘北斗互联科技有限公司</p>
+						<p class="tab8-img-p">联系地址 ：长沙市高新开发区中电软件园总部大楼5F-503</p>
+						<p class="tab8-img-p">备案ID：湘ICP备 16007482</p>
+						<p class="tab8-img-p">EMAIL：kefu@xiangbd.com</p>
+						<p class="tab8-img-p">电话：+0731 8991 5985</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="tab8-img">
+						<h4 class="tab8-img-h4">CONTACT US/联系我们</h4>
+						<p class="tab8-img-p">公司名称 ：湖南湘北斗互联科技有限公司</p>
+						<p class="tab8-img-p">联系地址 ：长沙市高新开发区中电软件园总部大楼5F-503</p>
+						<p class="tab8-img-p">备案ID：湘ICP备 16007482</p>
+						<p class="tab8-img-p">EMAIL：kefu@xiangbd.com</p>
+						<p class="tab8-img-p">电话：+0731 8991 5985</p>
+					</div>
+				</div>
+				<div class="col-md-5 col-sm-6">
+					<div class="row">
+						<div class="col-md-5">
+							<div class="tab8-img">
+								<div class="tab-enter"></div>
+								<img src="img/二维码.png"/>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="tab8-img tab8-img-left">
+								<div class="tab-enter"></div>
+								<div class="tab8-img-left-mid">
+									<p class="tab8-img-p">感谢您的分享！</p>
+									<img src="img/分享.png"/>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-1" style="display: none;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--tab8 END-->
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		/*轮播图*/
+		$("#myCarousel").carousel({
+			//3s一次
+			interval:3000,
+		});
+		/*跳动出现*/
+		//使用scroll()函数动态监听事件
+		$(window).scroll(function(){
+			var $tab1_row = $("#tab1-row");
+			var $tab1 = $(".tab1");
+			var $tab1_img = $(".tab1-img");
+			var $tab1_img_num = $(".tab-img-num");
+			
+			var tab1_top = parseInt($tab1.offset().top); //tab1的高度
+
+			var tab1_img_height = parseInt($tab1_img.innerHeight());
+
+			var tab1_sum = tab1_top + tab1_img_height;
+
+			// console.log("tab1_top的高度" + tab1_top);
+			// console.log("tab1_sum的高度" + tab1_sum);
+			// console.log("滚动条的高度" + $(window).scrollTop());
+
+			if($(window).scrollTop() >= tab1_top && $(window).scrollTop() < tab1_sum){
+				$tab1_row.css("visibility","visible");
+				$tab1_img_num.css("animation-play-state","running");
+			}
+		});
+		
+		/*无限循环*/
+		var time = null;
+		$(function(){
+			var $tab7_lis = $("#tab7-img-ul li");
+			if(time == null){
+				time = window.setInterval('change()',20);
+			}
+			for(var i = 0; i < $tab7_lis.length; i++){
+				$tab7_lis.on("mouseover", function(){
+					if(time != null){
+						window.clearInterval(time);
+						time = null;
+					}
+				});
+				$tab7_lis.on("mouseout", function(){
+					if(time == null){
+						time =window.setInterval('change()', 20);
+						
+					}
+				});
+			}
+		});
+		function change(){
+			var $tab7_ul = $("#tab7-img-ul");
+			var $tab7_li = $("#tab7-img-ul li")[0];
+			var $tab7_ul_left = $("#tab7-img-ul").position().left;
+			var li_width = parseInt($tab7_li.offsetWidth);
+			if($tab7_ul_left > -parseInt(li_width)){
+				$tab7_ul.css("left",parseInt($tab7_ul_left)-1);
+			}else{
+				$tab7_li.remove();
+				$tab7_ul.append($tab7_li);
+				$tab7_ul.css("left",0);
+				if(time != null){
+					window.clearInterval(time);//如果不清理定时器会使得动画越来越快
+					time = null;
+					window.setTimeout(function(){
+						if(time == null){
+							time = window.setInterval('change()', 20);
+						}
+					}, 2000);
+				}
+			}
+		}
+		/*无限滚动结束*/
+		
+		
+		
+		
+	</script>
+</body>
+</html>
